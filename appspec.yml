@@ -1,9 +1,9 @@
 version: 0.1
 os: linux
 files:
-  - source: /index.html
+  - source: index.html
     destination: /var/www/html/
-  - source: /styles.css
+  - source: styles.css
     destination: /var/www/html/
 hooks:
   BeforeInstall:
